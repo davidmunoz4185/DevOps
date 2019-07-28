@@ -8,6 +8,7 @@ We are given a pre-trained, sklearn model that has been trained to predict housi
 
 ## File And Directory Description ...
 
+```
 ├── app.py
 ├── Dockerfile
 ├── Makefile
@@ -23,6 +24,7 @@ We are given a pre-trained, sklearn model that has been trained to predict housi
 ├── run_docker.sh
 ├── run_kubernetes.sh
 └── upload_docker.sh
+```
 
 * app.py: Python File which contains all the logic (Flask Application) to make predictions
 * Dockerfile: All the code to create our image, in our case `docker built -t app .`
